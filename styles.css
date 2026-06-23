@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(fonts/norse/Norsebold.otf) format('opentype');
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    display: flex;
+    flex: 1;
+    background-image: url(images/leaves.jpg);
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 10px;
+    margin-top: 30%;
+}
+
+.logo-img {
+    height: 150px;
+    width: auto;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 6rem;
+  font-family: 'Norse Bold', sans-serif;
+}
+
+.credit {
+    color: #ffffff;
+    padding: 20px;
+}
+
+.credit a {
+    color: #ffffff;
+}
+
+.content {
+    flex: 2;
+}

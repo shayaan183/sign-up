@@ -19,56 +19,58 @@
         </aside>
 
         <main class="content">
-            <section class="intro">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to</p>
-            </section>
+            <div class="content-body">
+                <section class="intro">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to</p>
+                </section>
 
-            <section class="form-container">
-                <p>Let's do this!</p>
+                <section class="form-container">
+                    <p>Let's do this!</p>
 
-                <form action="#" method="post" id="signup-form">
-                    <div class="form-row">
-                        <div class="input-group">
-                            <label for="first-name">First Name</label>
-                            <input type="text" name="first_name" id="first-name" placeholder="Thor">
+                    <form action="#" method="post" id="signup-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first_name" id="first-name" placeholder="Thor">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last_name" id="last-name" placeholder="Odinson">
+                            </div>
                         </div>
 
-                        <div class="input-group">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" name="last_name" id="last-name" placeholder="Odinson">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="thor.odinson@asgard.com">
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-row">
-                        <div class="input-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="thor.odinson@asgard.com">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required minlength="8">
+                            </div>
+                            <div class="input-group">
+                                <label for="confirm">Confirm Password</label>
+                                <input type="password" name="confirm" id="confirm" required minlength="8">
+                            </div>
                         </div>
-                        <div class="input-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" name="phone" id="phone">
-                        </div>
-                    </div>
+                    </form>
+                </section>
 
-                    <div class="form-row">
-                        <div class="input-group">
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password" required minlength="8">
-                        </div>
-                        <div class="input-group">
-                            <label for="confirm">Confirm Password</label>
-                            <input type="password" name="confirm" id="confirm" required minlength="8">
-                        </div>
-                    </div>
-                </form>
-            </section>
-
-            <section class="form-actions">
-                <button type="submit" form="signup-form">Create Account</button>
-                <p>Already have an account? <a href="#">Log in</a></p>
-            </section>
-
+                <section class="form-actions">
+                    <button type="submit" form="signup-form">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </section>
+            </div>
+            
             <footer class="main-footer">
                 <p>Created by 
                     <a class="footer-link" href="https://github.com/shayaan183" target="_blank">Shayaan Musthafa 

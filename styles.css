@@ -106,8 +106,15 @@ body {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f9fafb;
+}
+
+.content-body {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	flex-grow: 1;
 	gap: 2rem;
 }
 

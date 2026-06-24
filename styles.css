@@ -104,4 +104,119 @@ body {
 
 .content {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9fafb;
+	gap: 1.5rem;
+}
+
+.intro {
+    padding: 40px 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 1000px;
+	line-height: 1.1;
+}
+
+.intro p {
+    margin-bottom: 1.5rem;
+}
+
+.intro p:last-child {
+    margin-bottom: 0;
+}
+
+.form-container {
+	background-color: #ffffff;
+	padding: 30px 60px 50px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container p {
+	font-size: 1.5rem;
+    font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+
+#signup-form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	max-width: 700px;
+}
+
+.form-row {
+	display: flex;
+	gap: 2.5rem;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	gap: 0.1rem;
+}
+
+.input-group label {
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #4b5563;
+}
+
+.input-group input {
+	padding: 0.5rem 0.65rem;
+	border-radius: 4px;
+	border: 2px solid #e5e7eb;
+	outline: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.input-group input:focus {
+	border-color: #325edc;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.input-group input:user-invalid {
+    border-color: #CC5858; 
+}
+
+.form-actions {
+	padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.form-actions button {
+	align-self: flex-start;
+	background-color: #596d48;
+	color: #ffffff;
+	font-size: 1.15rem;
+	font-weight: 600;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: transform 0.2s ease-in-out;
+}
+
+.form-actions button:hover {
+	transform: scale(1.03);
+}
+
+.form-actions p {
+	font-size: 1.15rem;
+}
+
+.form-actions a {
+	color: #596d48;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-actions a:hover {
+	text-decoration: underline;
 }

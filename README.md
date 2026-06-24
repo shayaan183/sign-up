@@ -4,7 +4,7 @@
 
 A sleek registration page build as part of [The Odin Project Intermediate HTML and CSS Course](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
-**Odin Portal** is a web-based client registration interface that implements a clean, nature-centric aesthetic balanced against interactive layout design.
+**Odin Portal** is a web-based registration interface that implements a clean, nature-centric aesthetic balanced against interactive layout design.
 
 *Note that this is not a real online service.*
 

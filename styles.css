@@ -83,13 +83,13 @@ body {
 }
 
 .logo-img {
-    height: 150px;
+    height: 200px;
     width: auto;
 }
 
 .logo-text {
   color: #ffffff;
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: 'Norse Bold', sans-serif;
 }
 
@@ -108,7 +108,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #f9fafb;
-	gap: 1.5rem;
+	gap: 2rem;
 }
 
 .intro {
@@ -219,4 +219,22 @@ body {
 
 .form-actions a:hover {
 	text-decoration: underline;
+}
+
+.main-footer {
+    padding: 20px 60px;
+}
+
+.footer-link {
+    color: #596d48; /* Accent color theme matching the signup button */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+	display: inline-flex;
+    align-items: center;
+	gap: 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
